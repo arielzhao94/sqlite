@@ -1,0 +1,7 @@
+In SQLite
+- column names are not case-sensitive
+- use `--`, `/* */` to comment out
+- `FROM TABLE1 INNER JOIN TABLE2 USING (ColumnName1)` or `FROM TABLE1 INNER JOIN TABLE2 ON ColumnName1 = ColumnName2`
+- correct comment syntax
+    -- `--` is followed by a space or newline
+    -- comments are placed outside SQL keywords
